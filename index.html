@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chi ti ruba il Sonno? – Tableau</title>
+  <meta name="description" content="Dashboard interattiva Tableau Public: Chi ti ruba il Sonno?" />
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:#fafafa; color:#111; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 24px 16px 40px; }
+    .card { background:#fff; border:1px solid #eaeaea; border-radius: 16px; padding: 18px; box-shadow: 0 6px 20px rgba(0,0,0,.04); }
+    h1 { font-size: 28px; margin: 0 0 6px; }
+    p { margin: 0 0 14px; color:#444; line-height: 1.4; }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .viz { margin-top: 12px; }
+    .footer { margin-top: 14px; font-size: 13px; color:#666; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Chi ti ruba il Sonno?</h1>
+      <p>
+        Dashboard interattiva su Tableau Public —
+        <a href="https://public.tableau.com/views/Chitirubailsonno/ChitirubailSonno" target="_blank" rel="noreferrer">
+          apri direttamente su Tableau
+        </a>
+      </p>
+
+      <div class="viz">
+        <div class='tableauPlaceholder' id='viz1772457095363' style='position: relative'>
+          <noscript>
+            <a href='#'>
+              <img alt='Chi ti ruba il Sonno? '
+                   src='https://public.tableau.com/static/images/Ch/Chitirubailsonno/ChitirubailSonno/1_rss.png'
+                   style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='Chitirubailsonno/ChitirubailSonno' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Ch/Chitirubailsonno/ChitirubailSonno/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='it-IT' />
+          </object>
+        </div>
+
+        <script type='text/javascript'>
+          var divElement = document.getElementById('viz1772457095363');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+
+          // Responsive: altezza proporzionale allo schermo (migliore su mobile)
+          var w = divElement.offsetWidth;
+          var h = Math.max(520, Math.round(w * 0.75));
+          vizElement.style.width = '100%';
+          vizElement.style.height = h + 'px';
+
+          var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+
+      <div class="footer">
+        Se l’embed non si carica (ad es. per blocchi di script), usa il link Tableau qui sopra.
+      </div>
+    </div>
+  </div>
+</body>
+</html>
