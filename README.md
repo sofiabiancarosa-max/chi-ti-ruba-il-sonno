@@ -32,3 +32,7 @@ La dashboard include:
 - Interpretazione di correlazioni e trend
 - Traduzione dei dati in insight leggibili
 - Comunicazione efficace dei risultati
+
+## 🔗 Dashboard Live
+
+👉 [Visualizza la dashboard online](https://sofiabiancarosa-max.github.io/chi-ti-ruba-il-sonno/)
