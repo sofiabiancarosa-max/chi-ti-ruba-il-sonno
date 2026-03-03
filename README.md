@@ -32,7 +32,7 @@ La dashboard include:
 - Interpretazione di correlazioni e trend
 - Traduzione dei dati in insight leggibili
 - Comunicazione efficace dei risultati
-- 
+  
 ## 📊 Dashboard Preview
 
 ![Dashboard Preview](dashboard-preview1.png)
